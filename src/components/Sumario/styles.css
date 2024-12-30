@@ -1,0 +1,15 @@
+@media (min-width: 1140px) {
+  .sumario {
+    width: 30%;
+  }
+}
+
+.verde-limao {
+  color: #daff01;
+}
+
+.custom-image {
+  width: 109px;
+  height: 165px;
+  object-fit: cover;
+}

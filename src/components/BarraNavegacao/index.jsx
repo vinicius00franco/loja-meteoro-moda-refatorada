@@ -1,14 +1,14 @@
-import Menu from "./Menu";
-import Logo from "./Logo";
-import BotaoTogglerMenu from "./BotaoTogglerMenu";
-import BotaoCarrinho from "./BotaoCarrinho";
-import CampoTexto from "@/components/CampoTexto";
-import Botao from "@/components/Botao";
+import { Menu } from "./Menu";
+import { Logo } from "./Logo";
+import { BotaoTogglerMenu } from "./BotaoTogglerMenu";
+import { BotaoCarrinho } from "./BotaoCarrinho";
+import { CampoTexto } from "@/components/CampoTexto";
+import { Botao } from "@/components/Botao";
 
 import { useLocation } from "react-router-dom";
 import { useCarrinhoContext } from "../../hooks/useCarrinhoContext";
 
-const BarraNavegacao = () => {
+export const BarraNavegacao = () => {
   const location = useLocation();
   const ehAPaginaCarrinho = location.pathname === "/carrinho";
   const { quantidade } = useCarrinhoContext();
@@ -47,5 +47,3 @@ const BarraNavegacao = () => {
     </header>
   );
 };
-
-export default BarraNavegacao;

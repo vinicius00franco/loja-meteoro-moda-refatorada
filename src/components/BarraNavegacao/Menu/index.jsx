@@ -8,7 +8,7 @@ const links = [
   { name: "Promoções", path: "/promocoes" },
 ];
 
-const Menu = () => {
+export const Menu = () => {
   return (
     <ul className="navbar-nav me-auto">
       {links.map((link) => (
@@ -17,5 +17,3 @@ const Menu = () => {
     </ul>
   );
 };
-
-export default Menu;

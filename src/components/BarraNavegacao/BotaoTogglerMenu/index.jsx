@@ -1,6 +1,6 @@
 import React from "react";
 
-const BotaoTogglerMenu = () => {
+export const BotaoTogglerMenu = () => {
   return (
     <button
       className="navbar-toggler"
@@ -15,5 +15,3 @@ const BotaoTogglerMenu = () => {
     </button>
   );
 };
-
-export default BotaoTogglerMenu;

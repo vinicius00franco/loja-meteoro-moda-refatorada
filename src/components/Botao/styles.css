@@ -1,0 +1,24 @@
+.botao__excluir {
+  border: none;
+  background-color: transparent;
+}
+
+.botao__circular {
+  width: 30px;
+  height: 30px;
+}
+
+.botao-lilas {
+  background-color: #9353ff;
+}
+
+.btn-outline-purple {
+  border-color: #9353ff;
+  color: #9353ff;
+}
+
+.btn-tertiary {
+  background-color: transparent;
+  border-color: #9353ff;
+  color: #9353ff;
+}

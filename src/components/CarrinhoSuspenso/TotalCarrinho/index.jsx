@@ -1,7 +1,8 @@
 import React from "react";
 import ValorFormatado from "@/components/ValorFormatado";
-import Botao from "@/components/Botao";
+import { Botao } from "@/components/Botao";
 import { useNavigate } from "react-router-dom";
+import "./styles.css";
 
 const TotalCarrinho = ({ valorTotalCarrinho }) => {
   const navigate = useNavigate();

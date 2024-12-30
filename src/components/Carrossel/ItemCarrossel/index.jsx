@@ -1,6 +1,8 @@
 import React from "react";
 import Titulo from "@/components/Titulo";
 
+import "./styles.css";
+
 const ItemCarrossel = ({ src, alt, itemCarrossel }) => {
   return (
     <div

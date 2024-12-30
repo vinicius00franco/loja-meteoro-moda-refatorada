@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles.css";
 
 const Facilidade = ({ src, alt, titulo, descricao }) => {
   return (

@@ -1,7 +1,8 @@
 import React from "react";
 import bannerCarrinho from "/assets/images/banner-carrinho.png";
+import "./styles.css";
 
-const BannerCarrinho = () => {
+export const BannerCarrinho = () => {
   return (
     <img
       className="custom-img"
@@ -10,5 +11,3 @@ const BannerCarrinho = () => {
     />
   );
 };
-
-export default BannerCarrinho;

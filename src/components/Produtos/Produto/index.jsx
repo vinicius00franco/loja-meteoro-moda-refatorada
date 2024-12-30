@@ -1,5 +1,5 @@
 import React from "react";
-import Botao from "@/components/Botao";
+import { Botao } from "@/components/Botao";
 import { formatadorMoeda } from "@/utils/formatadorMoeda";
 
 const Produto = ({

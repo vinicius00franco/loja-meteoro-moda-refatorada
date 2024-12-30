@@ -1,6 +1,6 @@
 import React from "react";
 
-import BarraNavegacao from "@/components/BarraNavegacao";
+import { BarraNavegacao } from "@/components/BarraNavegacao";
 import Carrossel from "@/components/Carrossel";
 import Rodape from "@/components/Rodape";
 import Produtos from "@/components/Produtos";

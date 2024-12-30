@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+  .descricao {
+    width: 165px;
+  }
+}
+@media (min-width: 1140px) {
+  .descricao {
+    width: 250px;
+  }
+
+  .detalhe__compra {
+    width: 70%;
+  }
+
+  .secao__compra {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 32px;
+  }
+}
+
+.detalhe__compra {
+  width: 100%;
+}
+
+/*pagina carrinho */
+.secao__compra {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 32px;
+}

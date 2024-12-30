@@ -1,0 +1,23 @@
+.produto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  .produto {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .imagem__produto {
+    width: 109px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+.divisor {
+  height: 1px;
+  background-color: #fff;
+}

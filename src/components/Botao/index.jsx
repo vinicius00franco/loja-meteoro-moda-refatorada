@@ -1,6 +1,7 @@
 import React from "react";
+import "./styles.css";
 
-const Botao = ({
+export const Botao = ({
   type,
   children,
   variant = "default",
@@ -33,5 +34,3 @@ const Botao = ({
     </button>
   );
 };
-
-export default Botao;
